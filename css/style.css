@@ -598,9 +598,9 @@ ul {
 
     .hobbiesSection {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: flex-start;
-        gap: 3.5rem;
+        gap: 3rem;
     }
 
     #hobbyList {
