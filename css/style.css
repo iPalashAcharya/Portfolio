@@ -1214,7 +1214,7 @@ ul {
 @media (max-width:576px) {
 
     #projectDescSection {
-        padding: 0;
+        padding: 1rem;
         padding-bottom: 8rem;
         height: auto;
     }
@@ -1330,6 +1330,14 @@ ul {
     margin-bottom: 52px;
 }
 
+#blog{
+    margin-bottom:28px;
+}
+
+#controller{
+    margin-bottom:28px;
+}
+
 @media (max-width: 768px) {
     .projectContainer {
         flex-direction: column;
@@ -1358,7 +1366,7 @@ ul {
     }
 
     .timeline,
-    .projectText {
+    .projectText,.techstack {
         font-size: 14px;
     }
 }
@@ -1391,7 +1399,7 @@ ul {
     }
 
     .timeline,
-    .projectText {
+    .projectText,.techstack {
         font-size: 14px;
     }
 }
@@ -1411,7 +1419,7 @@ ul {
     }
 
     .timeline,
-    .projectText {
+    .projectText,.techstack {
         font-size: 12px;
     }
 
